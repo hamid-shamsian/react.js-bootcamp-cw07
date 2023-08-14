@@ -1,0 +1,9 @@
+.plyr.plyr--full-ui.plyr--video {
+   width: 600px;
+   border-radius: 10px;
+   margin: 0 auto;
+}
+
+.plyr__controls {
+   transition: bottom 0.5s !important;
+}
