@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+   </head>
+   <body>
+      <script>
+         const LOCAL_FORECAST = {
+            yesterday: { low: 61, high: 75 },
+            today: { low: 64, high: 77 },
+            tomorrow: { low: 68, high: 80 }
+         };
+
+         const {
+            today: { low: todayLow = 10, high: todayHigh }
+         } = LOCAL_FORECAST;
+
+         console.log(todayLow, todayHigh);
+      </script>
+   </body>
+</html>
